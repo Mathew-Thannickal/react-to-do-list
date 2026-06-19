@@ -52,7 +52,7 @@ export default function MissionStats({ missions }) {
         
         <div className="hud-content">
           <div className="hud-circle-wrapper">
-            <svg className="hud-circle-svg" viewBox="0 0 100 100">
+            <svg className="hud-circle-svg" viewBox="0 0 100 100" width="100" height="100">
               <circle className="hud-circle-bg" cx="50" cy="50" r="40" />
               <circle
                 className="hud-circle-progress"

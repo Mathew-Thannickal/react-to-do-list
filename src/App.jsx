@@ -5,6 +5,7 @@ import MissionForm from './components/MissionForm'
 import MissionFilters from './components/MissionFilters'
 import MissionCard from './components/MissionCard'
 import EmptyState from './components/EmptyState'
+import './App.css'
 
 export default function App() {
   // Helper to get today's date in YYYY-MM-DD format
@@ -273,7 +274,7 @@ export default function App() {
                 })
               ) : (
                 <div className="flow-empty-state">
-                  <svg className="flow-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <svg className="flow-empty-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                     <polyline points="22 4 12 14.01 9 11.01"></polyline>
                   </svg>
